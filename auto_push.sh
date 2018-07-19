@@ -8,8 +8,8 @@ message="modify"
 fi
 
 git add .
-git commit -m $message
-echo $message
+git commit -m "$message"
+echo "commit message is $message"
 git push
 
 echo "-------------End-------------"
