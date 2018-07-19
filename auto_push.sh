@@ -4,7 +4,7 @@ echo "------------Begin------------"
 
 message = $1
 if [ ! -n "$1" ] ;then
- message='modify'
+message="modify"
 fi
 
 git add .
