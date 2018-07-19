@@ -8,7 +8,7 @@ if [ ! -n "$1" ] ;then
 fi
 
 git add .
-git commit -m message
+git commit -m $message
 echo $1
 git push
 
